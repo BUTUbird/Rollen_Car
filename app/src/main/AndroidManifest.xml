@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.car_demo1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.example.rollen_car.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--     Fragment   -->
+        <activity android:name="com.example.rollen_car.fragment.First_Fragment" />
+        <activity android:name="com.example.rollen_car.fragment.fg.First_a_fg" />
+        <activity android:name="com.example.rollen_car.fragment.fg.First_d_fg" />
+        <activity android:name="com.example.rollen_car.fragment.fg.First_b_fg" />
+        <activity android:name="com.example.rollen_car.fragment.fg.First_c_fg" />
+        <activity android:name="com.example.rollen_car.fragment.Fifth_Fragment"></activity>
+        <activity android:name="com.example.rollen_car.fragment.Fourth_Fragment"></activity>
+        <activity android:name="com.example.rollen_car.fragment.Thrid_Fragment"></activity>
+        <activity android:name="com.example.rollen_car.fragment.Second_Fragment"></activity>
+
+    </application>
+
+</manifest>

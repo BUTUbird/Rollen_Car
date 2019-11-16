@@ -130,6 +130,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.setting:
+                //测试代码是否生效
                 Log.e("ljw","李江武");
                mDrawerLayout.openDrawer(GravityCompat.END);
                 break;
